@@ -1,0 +1,125 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+    # Your full name
+    first_name: Sebastian
+    last_name: Sotelo
+    
+    # Define yourself in 4-5 words
+    motto: Passionate Web Developer
+    
+    # Focus
+    focus: Front-end Development
+
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I am a dedicated web developer with a strong focus on front-end technologies and a solid understanding of back-end systems. My journey includes creating various projects at 4geeks and excelling in client-facing roles as an Executive Comercial. My goal is to leverage my skills and experiences to build impactful web solutions.
+
+    # Your profile picture URL
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: sebastian.sotelo.g@icloud.com
+    phone: +569 7513 6169
+    website: "-"
+    linkedin: Sebastian Sotelo
+    
+    # ******** IMPORTANT *******
+    github: S-Sotelo
+    
+    twitter: "-" # optional
+    stack-overflow: "-" 
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: B1
+
+    # Interests or hobbies
+    interests:
+      - item: Sports
+
+      - item: Gaming
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Ingenieria en Administracion de Empresas
+      university: Inacap
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2018 - 2022
+      details: |
+        Completed a degree in Business Administration, focusing on finances, management and organizational skills.
+
+    - degree: Fullstack development
+      university: 4geeks
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2024 - 2024
+      details: |
+        Specialized in web development, acquiring skills in both front-end and back-end technologies.
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Ejecutivo Comercial
+      time: 2022 - 2024
+      company: Santander
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Responsible for managing client relationships, sales processes, and business development.
+
+# Your project portfolio
+projects:
+    intro: >
+      I have contributed to various projects, including creating multiple web applications and templates for 4geeks.
+
+    assignments:
+      - title: Project 1
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "A responsive website template designed for startups."
+
+      - title: Project 2
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A dynamic website template for web developers."
+
+      - title: Project 3
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A comprehensive template for startups to attract users and investors."
+
+      - title: Project 4
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A template solution for mobile app marketing."
+
+      - title: Project 5
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A responsive theme for app developers."
+
+skills:
+    toolset:
+      - name: Front-end Development
+        level: 90%
+
+      - name: Back-end Development
+        level: 50%
